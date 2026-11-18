@@ -1,4 +1,5 @@
 # Tidepool
+By Xavier :)
 
 Pixel-art sea creatures that live on your Mac's desktop. They swim around over your windows, react to your cursor, do tricks, eat snacks, greet each other, and stay out of the way while you work.
 
