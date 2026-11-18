@@ -9,6 +9,22 @@ Tidepool is a native macOS menu bar app written in Swift (AppKit + SwiftUI). It 
 - macOS 13 or later
 - Xcode or the Xcode command line tools (Swift 5.9+) to build
 
+## Try it (no building needed)
+
+Download `Tidepool-1.0.dmg`, open it, and drag Tidepool into Applications.
+
+Tidepool isn't signed with an Apple developer certificate, so macOS blocks a normal double-click the first time. **Right-click Tidepool and choose Open**, then Open again. On macOS 15, if there's no Open option, go to System Settings → Privacy & Security and click **Open Anyway** next to Tidepool. You only need to do this once.
+
+The app runs on both Apple silicon and Intel Macs.
+
+## Package it yourself
+
+```bash
+./package.sh
+```
+
+This builds a universal app and writes `dist/Tidepool-<version>.dmg`, ready to share.
+
 ## Build and run
 
 ```bash
